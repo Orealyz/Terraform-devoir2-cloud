@@ -22,7 +22,7 @@ resource "azurerm_mysql_flexible_server" "mysql" {
   administrator_login    = "mysqladmin"
   administrator_password = var.mysql_password
   sku_name               = "B_Standard_B1ms"
-  version                = "8.0"
+  version                = "8.0.21"
   zone                   = "1"
   delegated_subnet_id    = null
 }
