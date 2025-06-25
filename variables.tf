@@ -8,3 +8,11 @@ variable "location" {
 variable "mysql_password" {
   type = string
 }
+
+variable "subscription_id" {
+  type = string
+}
+
+variable "tenant_id" {
+  type = string
+}
