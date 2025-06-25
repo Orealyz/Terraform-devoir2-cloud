@@ -3,7 +3,7 @@ variable "environment" {
 }
 variable "location" {
   type    = string
-  default = "EU"
+  default = "francecentral"
 }
 variable "mysql_password" {
   type = string
